@@ -28,4 +28,18 @@
 }
 body {
   background-color: #312e2b;
+  display: flex;
+}
+#moveHistory {
+  overflow-y: scroll;
+  width: 200px;
+  height: 300px;
+  border: 10px solid #999;
+  overflow-x: hidden;
+  background: blanchedalmond;
+  border-radius: 1em;
+  flex: 1;
+}
+.row {
+  color:blanchedalmond;
 }
